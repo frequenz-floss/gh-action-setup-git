@@ -8,7 +8,7 @@ Here is an example demonstrating how to use it in a workflow:
 ```yaml
 jobs:
   upload:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Fetch sources
@@ -38,7 +38,7 @@ to use them for authentication. Otherwise, no credentials will be configured.
 ```yaml
 jobs:
   upload:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Fetch sources
